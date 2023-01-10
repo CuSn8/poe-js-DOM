@@ -7,4 +7,4 @@ const age = document.getElementsByName("age")[0];
 const birthdate = document.getElementsByName("birthdate")[0];
 console.log(fullName);
 body.append(result);
-result.innerHTML = `${fullName.name}: ${fullName.value},`
+result.innerHTML = `${fullName.name}: ${fullName.value}, ${age.name}: ${age.value}, ${birthdate.name}: ${birthdate.value}`
