@@ -1,7 +1,8 @@
 const body = document.getElementsByTagName("body")[0];
-document.addEventListener("scroll", () => {
+
+window.addEventListener("scroll", () => {
   const dateElement = document.createElement("p");
   const date = new Date();
   dateElement.innerHTML = `${date}`;
-  body.append(date);
+  body.append(dateElement);
 });
