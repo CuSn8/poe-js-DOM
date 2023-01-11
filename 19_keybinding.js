@@ -3,7 +3,7 @@ console.dir(square);
 let topValue = 0;
 let leftValue = 0;
 
-window.addEventListener("keydown", (e) => {
+document.addEventListener("keydown", (e) => {
   switch (e.key) {
     case "ArrowUp":
       topValue -= 10;
@@ -23,4 +23,3 @@ window.addEventListener("keydown", (e) => {
       break;
   }
 });
-square.style.left = `${leftValue}px`;
