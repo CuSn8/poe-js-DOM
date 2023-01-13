@@ -15,3 +15,5 @@ addButton.addEventListener("click", () => {
     .then(() => console.log("succes"))
     .catch(() => console.log("failure"));
 });
+
+module.exports = sleepThrow;
